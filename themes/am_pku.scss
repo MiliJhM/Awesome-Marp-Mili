@@ -1,0 +1,100 @@
+/* @theme am_pku */
+
+@import 'am_template';
+
+:root {
+    --color-code-bg: #f6eeef;
+    --color-coverbg: #94070a;
+    --color-few: #53a7a0;
+    --color-footer: #8c8c8c;
+    --color-main: #211112;
+    --color-much: #94070a;
+    --color-navbar-bg: #edddde;
+    --color-navbar-font: rgb(108, 95, 91);
+    --color-quote: rgba(254, 176, 98, 0.1);
+    --color-title: rgb(255, 255, 255);
+    --color-trans: #df959b;
+    --filter-b: brightness(30%) contrast(70%) grayscale(100%);
+    --filter-c: brightness(0%) contrast(60%) grayscale(80%);
+    --filter-e: brightness(0%) contrast(70%) grayscale(100%);
+    --font-family-main: 'Latin Modern Math', 'Adobe Garamond', '方正宋刻本秀楷简体', 'Calibri', '微软雅黑', '华文中宋', '楷体', '霞鹜文楷 屏幕阅读版';
+    --font-family-title: 'Optima LT Medium', 'Arial', '微软雅黑', '黑体';
+    --font-family-footer: 'Segoe UI', 'Calibri', '微软雅黑', '方正苏新诗柳楷简体', '楷体';
+    --font-family-code: 'Fira Code', 'HYMingChanKeBen W', 'Consolas', '微软雅黑', '华文中宋', '宋体';
+    --font-size-1: 55px;
+    --foot-size-subtitle: 42px;
+    --font-size-2-3: 38px;
+    --font-size-4-5: 30px;
+    --font-size-main: 25px;
+    --font-size-footer: 16px;
+    --font-size-page: 12px;
+    --font-size-code: 22px;
+}
+
+section.cover_a footer{
+    background-color: transparent;
+    height: 100px;
+    width: 250px;
+    left: 30px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+section.cover_d footer{
+        background-color: transparent;
+            height: 100px;
+            width: 250px;
+            left: 77%;
+            text-align: center;
+            vertical-align: middle;
+}
+
+section.cover_c header {
+    background-color: transparent;
+    background-blend-mode: lighten;
+    height: 100px;
+    width: 350px;
+    text-align: left;
+    left: 20px;
+    top: 15px;
+}
+
+section.cover_c header>img {
+    filter: brightness(100%)
+}
+
+footer {
+    color: var(--color-footer);
+    bottom: 1%;
+    left: 2%;
+    width: 100%;
+    height: 4%;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer>em {
+    font-family: var(--font-family-footer);
+    font-size: var(--font-size-footer);
+    letter-spacing: 0.5px;
+    font-style: normal;
+}
+
+section.lastpage .icons {
+    grid-area: icons;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    vertical-align: middle;
+}
+
+section.lastpage footer {
+    background-color: transparent;
+    height: 100px;
+    width: 100px;
+    left: 20px;
+    top: 15px;
+    margin-bottom: 20px;
+    text-align: center;
+    vertical-align: middle;
+}

@@ -1,33 +1,30 @@
 ---
 marp: true
 size: 16:9
-theme: am_red
+theme: am_pku
 paginate: true
 headingDivider: [2,3]
-footer: \ *初虹（虹鹄山庄）* *Awesome Marp：轻松取代 LaTeX Beamer！* *2024年1月13日（v1.3）*
+footer: \ *Mili* *Awesome Marp for PKU* *2024.2.29*
 ---
 
 
-<!-- _class: cover_a 
+<!-- _class: cover_a -->
 <!-- _header: "" --> 
-<!-- _footer: "" --> 
+<!-- _footer: ![](https://milijhm.github.io/storage/fulllogo.png) --> 
 <!-- _paginate: "" --> 
 
 # Awesome Marp：轻松取代 LaTeX Beamer！
 
 ###### “用法简单、功能全面的个性化 PPT 模板”
 
-@初虹
-公众号：虹鹄山庄
-发布时间：2024 年 1 月 13 日（v1.3）
-<ch2099058972@163.com>
-Awesome-Marp 地址：[GitHub 库](https://github.com/favourhong/Awesome-Marp)/[Gitee 库](https://gitee.com/favourhong/Awesome-Marp)
+Mili@2024.2.29
+[GitHub Link](https://github.com/MiliJhM/Awesome-Marp-Mili)
 
-## Awesome Marp 有什么？
+## 目录：Awesome Marp 有什么？
 
 <!-- _class: cols2_ol_ci fglass toc_a  -->
 <!-- _footer: "" -->
-<!-- _header: "CONTENTS" -->
+<!-- _header: "" -->
 <!-- _paginate: "" -->
 
 - [关于模板](#3)
@@ -94,11 +91,7 @@ Awesome-Marp 地址：[GitHub 库](https://github.com/favourhong/Awesome-Marp)/[
     - 如果你能够自行定制个性化 CSS 文件，渲染前，别忘在 `Awesome-Marp/.vscode/settings.json` 里加上你的 CSS 文件路径~ 
   - **搭配 Obsidian**：安装 [Marp Slides 插件](https://github.com/samuele-cozzi/obsidian-marp-slides)，并配置相应 CSS 路径
 
-- 字体：因担心版权问题，需自行下载字体并安装，Awesome Marp 用到的字体有：
-  - 正文字体：`Latin Modern Math`、`方正宋刻本秀楷简体`，如果未安装，默认将使用 `Calibri` 和 `楷体`
-  - 标题字体：`Optima LT Medium`、`方正苏新诗柳楷简体`，如果未安装，默认将使用 `Arial` 和 `黑体`
-  - 脚注字体：`Charm` 和 `叶根友毛笔行书修正版`，如果未安装，默认将使用 `Calibri` 和 `楷体`
-  - 代码字体：`Fira Code` 和 `霞鹜文楷等宽`，如果未安装，默认将使用 `Consolas` 和 `华文中宋`
+- 字体：原版Awesome Marp加载了一些衬线字体，个人认为用于展示较为不妥。目前主题中大多数字体采用`Segoe UI`，`微软雅黑`和`Fira Code`，但笔者系统微软雅黑被替换为鸿蒙黑体，故有需要可自行替换为其它无衬线字体。
 
 ## 1. 关于模板：更新日志
 
@@ -124,11 +117,11 @@ Awesome-Marp 地址：[GitHub 库](https://github.com/favourhong/Awesome-Marp)/[
 - 大标题：采用一级标题 `# ` （如：`# Awesome Marp：自定义 Marp 主题`）
 - 副标题：采用六级标题 `###### ` （如：`###### 打造简便又不失个性的演示文稿`）
 - 本套模板提供 5 种封面页样式，使用时需要在页面中设定局部指令，如：`<!-- _class: cover_a -->` 
-  - `cover_a`：[第 1 种](#1)
-  - `cover_b`：[第 2 种](#12)
-  - `cover_c`：预留 header 可设定学校 logo，footer 可设定校训 [第 3 种](#13)
+  - `cover_a`：[第 1 种](#1)，设定footer可用于展示宽体校徽
+  - `cover_b`：[第 2 种](#12)，设定header可用于展示宽体校徽
+  - `cover_c`：设定header可用于展示宽体校徽 [第 3 种](#13)
   - `cover_d`：只预留了 footer 设定校训 [第 4 种](#14)
-  - `cover_e`：预留 header 设定学校 logo，footer 设定学校 logo 和学校名称[第 5 种](#15)
+  - `cover_e`：预留 header 设定学校 logo [第 5 种](#15)
 
 - 如果已经设定了全局 footer、header 或页码，但又不期望在封面页中出现，可以 `<!-- _footer: "" -->` / `<!-- _header: "" -->` / `<!-- _paginate: "" -->` 分别将其局部隐藏起来
 - 当标题文字超过页面宽度会溢出换行，这里可以使用 `<!-- fit -->` 根据页面宽度自动调整文字大小
@@ -136,70 +129,59 @@ Awesome-Marp 地址：[GitHub 库](https://github.com/favourhong/Awesome-Marp)/[
 ---
 
 <!-- _class: cover_b -->
-<!-- _header: "" -->
+<!-- _header: ![](https://milijhm.github.io/storage/fulllogo.png) -->
 <!-- _footer: "" -->
 <!-- _paginate: "" -->
+
 
 # Awesome Marp：轻松取代 LaTeX Beamer！
 
 ###### “用法简单、功能全面的个性化 PPT 模板”
 
-@初虹
-公众号：虹鹄山庄
-发布时间：2024 年 1 月 13 日（v1.3）
-<ch2099058972@163.com>
-Awesome-Marp 地址：[GitHub 库](https://github.com/favourhong/Awesome-Marp)/[Gitee 库](https://gitee.com/favourhong/Awesome-Marp)
+Mili@2024.2.29
+[GitHub Link](https://github.com/MiliJhM/Awesome-Marp-Mili)
 
 ---
 
 <!-- _class: cover_c -->
 <!-- _paginate: "" -->
-<!-- _footer: 克明峻德，格物致知 -->
-<!-- _header: ![](https://mytuchuang-1303248785.cos.ap-beijing.myqcloud.com/picgo/202309231557236.png) -->
+<!-- _footer: "" -->
+<!-- _header: ![](https://milijhm.github.io/storage/fulllogo.png) -->
 
 # <!-- fit -->Awesome Marp：轻松取代 LaTeX Beamer！
 
 ###### “用法简单、功能全面的个性化 PPT 模板”
 
-@初虹
-公众号：虹鹄山庄
-发布时间：2024 年 1 月 13 日（v1.3）
-<ch2099058972@163.com>
-Awesome-Marp 地址：[GitHub 库](https://github.com/favourhong/Awesome-Marp)/[Gitee 库](https://gitee.com/favourhong/Awesome-Marp)
+Mili@2024.2.29
+[GitHub Link](https://github.com/MiliJhM/Awesome-Marp-Mili)
 
 ---
 
 <!-- _class: cover_d -->
 <!-- _paginate: "" -->
-<!-- _footer: "克明峻德，格物致知" -->
+<!-- _footer: ![](https://milijhm.github.io/storage/fulllogo.png) -->
 
 # <!-- fit -->Awesome Marp：轻松取代 LaTeX Beamer！
 
 ###### “用法简单、功能全面的个性化 PPT 模板”
 
-@初虹
-公众号：虹鹄山庄
-发布时间：2024 年 1 月 13 日（v1.3）
-<ch2099058972@163.com>
-Awesome-Marp 地址：[GitHub 库](https://github.com/favourhong/Awesome-Marp)/[Gitee 库](https://gitee.com/favourhong/Awesome-Marp)
+Mili@2024.2.29
+[GitHub Link](https://github.com/MiliJhM/Awesome-Marp-Mili)
 
 ---
 
 <!-- _class: cover_e -->
 <!-- _paginate: "" -->
-<!-- _footer: ![](https://mytuchuang-1303248785.cos.ap-beijing.myqcloud.com/picgo/202309231557236.png) -->
-<!-- _header: ![](https://mytuchuang-1303248785.cos.ap-beijing.myqcloud.com/picgo/202309231558983.png) -->
+<!-- _footer: "" -->
+<!-- _header: ![](https://milijhm.github.io/storage/bdlogo_white.png) -->
 
 
 # <!-- fit -->Awesome Marp：轻松取代 LaTeX Beamer！
 
 ###### “用法简单、功能全面的个性化 PPT 模板”
 
-@初虹
-公众号：虹鹄山庄
-发布时间：2024 年 1 月 13 日（v1.3）
-<ch2099058972@163.com>
-Awesome-Marp 地址：[GitHub 库](https://github.com/favourhong/Awesome-Marp)/[Gitee 库](https://gitee.com/favourhong/Awesome-Marp)
+Mili@2024.2.29
+[GitHub Link](https://github.com/MiliJhM/Awesome-Marp-Mili)
 
 ## 3. 目录页
 
@@ -210,7 +192,7 @@ Awesome-Marp 地址：[GitHub 库](https://github.com/favourhong/Awesome-Marp)/[
 ## 3. 目录页 
 
 - Awesome Marp 提供了至少 2 种目录页样式，使用时同样需要设定局部样式
-  - `toc_a`：需要将 header 的内容设定为 `CONTENTS`，即 `<!-- _header: "CONTENTS" -->`
+  - `toc_a`：需要将 header 的内容设定为 `CONTENTS`，即 `<!-- _header: "CONTENTS" -->` 个人感觉有点丑，可去掉Header使用
   - `toc_b`：需要将 header 的内容设定为 `目录<br>CONTENTS<br>你的LOGO地址`，即 `<!-- _header: 目录<br>CONTENTS<br>![](./logo.png)-->`
   - 提供的几种分栏列表样式，也可以作为目录页使用，如 `<!-- _class: cols2_ol_ci fglass  -->`（效果见[这里](#32)）
 
@@ -236,7 +218,7 @@ Awesome-Marp 地址：[GitHub 库](https://github.com/favourhong/Awesome-Marp)/[
 
 ---
 
-<!-- _header: 目录<br>CONTENTS<br>![](https://mytuchuang-1303248785.cos.ap-beijing.myqcloud.com/picgo/202309231558983.png)-->
+<!-- _header: 目录<br>CONTENTS<br>![](https://milijhm.github.io/storage/bdlogo_white.png)-->
 <!-- _class: toc_b -->
 <!-- _footer: "" -->
 <!-- _paginate: "" -->
@@ -260,6 +242,13 @@ Awesome-Marp 地址：[GitHub 库](https://github.com/favourhong/Awesome-Marp)/[
 
 ## 4.1 页面分栏与列表分列：页面分栏
 
+注意：使用HTML标签需要启用Marp InlineHTML编译功能。具体来说，在Vscode配置中加入
+```json
+    "markdown.marp.enableHtml": true,
+```
+即可。
+---
+
 - Awesome Marp 提供了 8 种页面分栏方式，分别为：
   - `cols-2`：[两列分栏，五五平分](#23)
   - `cols-2-64`：[两列分栏，六四分](#24)
@@ -270,7 +259,8 @@ Awesome-Marp 地址：[GitHub 库](https://github.com/favourhong/Awesome-Marp)/[
   - `rows-2`：[两行分栏](#29)
   - `pin-3`：[品字型分栏](#30)
 
-- 如果某一栏为图片，可以将 `class=ldiv` 换成 `class=limg`，这样能够实现图片的垂直居中对齐呢（`class=ldiv` 为居上对齐）
+- 如果某一栏为图片，可以将 `class=ldiv` 换成 `class=limg`，这样能够实现图片的垂直居中对齐（`class=ldiv` 为居上对齐）
+
 
 
 ## 4.1 页面分栏与列表分列：页面分栏
@@ -284,9 +274,7 @@ Awesome-Marp 地址：[GitHub 库](https://github.com/favourhong/Awesome-Marp)/[
 第一列（左侧栏）的内容在这里
 
 内容可以是普通纯文本，可以是列表，也可以是引用块、链接、图片等
-</div>
 
-<div class=rdiv>
 
 第二列（右侧栏）的内容在这里
 </div>
@@ -299,24 +287,16 @@ Awesome-Marp 地址：[GitHub 库](https://github.com/favourhong/Awesome-Marp)/[
 
 <!-- _class: cols-2 -->
 
-<div class=ldiv>
-
-曲曲折折的荷塘上面，弥望的是田田的叶子。叶子出水很高，像亭亭的舞女的裙。
-
-层层的叶子中间，零星地点缀着些白花，有袅娜地开着的，有羞涩地打着朵儿的；正如一粒粒的明珠，又如碧天里的星星，又如刚出浴的美人。
-
-微风过处，送来缕缕清香，仿佛远处高楼上渺茫的歌声似的。这时候叶子与花也有一丝的颤动，像闪电般，霎时传过荷塘的那边去了。
-
-叶子本是肩并肩密密地挨着，这便宛然有了一道凝碧的波痕。叶子底下是脉脉的流水，遮住了，不能见一些颜色；而叶子却更见风致了。
-
+曲曲折折的荷塘上面，弥望的是田田的叶子。叶子出水很高，像亭亭的舞女的裙。  
+层层的叶子中间，零星地点缀着些白花，有袅娜地开着的，有羞涩地打着朵儿的；正如一粒粒的明珠，又如碧天里的星星，又如刚出浴的美人。  
+微风过处，送来缕缕清香，仿佛远处高楼上渺茫的歌声似的。这时候叶子与花也有一丝的颤动，像闪电般，霎时传过荷塘的那边去了。  
+叶子本是肩并肩密密地挨着，这便宛然有了一道凝碧的波痕。叶子底下是脉脉的流水，遮住了，不能见一些颜色；而叶子却更见风致了。  
 —— 朱自清《荷塘月色》  [返回](#21)
-</div>
 
-<div class=rimg>
 
 <!-- ![#c](https://mytuchuang-1303248785.cos.ap-beijing.myqcloud.com/picgo/202309221014499.png) -->
 ![#c](https://mytuchuang-1303248785.cos.ap-beijing.myqcloud.com/picgo/202309221630151.png)
-</div>
+
 
 ## 《春》（两栏六四分）
 
@@ -899,7 +879,7 @@ size: 16:9        # 设定页面比例，常见有 16:9 或 4:3，默认为16:9
 theme: gaia       # 切换主题，内置 3 种样式的主题，可以自定义主题
 paginate: true    # 开启页码
 headingDivider: 2 # 通过二级标题切分页面，省去手动换页的麻烦
-footer: 初虹 # 设置页脚区域的内容，如果设定页眉的内容，则为 header
+footer: Mili      # 设置页脚区域的内容，如果设定页眉的内容，则为 header
 ---
 ```
 
@@ -910,27 +890,14 @@ footer: 初虹 # 设置页脚区域的内容，如果设定页眉的内容，则
 ---
 
 <!-- _class: lastpage -->
-<!-- _footer: "" -->
+<!-- _footer: ![](https://milijhm.github.io/storage/bdlogo_red.png) -->
 
-###### 欢迎交流 ~ 
+###### Thanks for Listening! 
 
-<div class="icons">
+<div class=icons>
 
-- <i class="fa-solid fa-envelope"></i>
-  - 邮箱：ch2099058972@163.com
-- <i class="fa-brands fa-weixin"></i> 
-  - 微信：favourhong  
-- <i class="fa-solid fa-house"></i> 
-  - 公众号：虹鹄山庄
+Mili, 2024/2/29
 
-<div>
+<i class="fa-brands fa-github"></i>[MiliJhM](https://github.com/MiliJhM/Awesome-Marp-Mili)
 
-## 创作不易，buy me a coffee 🤙~ 
-
-<!-- _class: trans -->
-<!-- _footer: "" -->
-<!-- _paginate: "" -->
-
-<br>
-
-![#c w:300](https://mytuchuang-1303248785.cos.ap-beijing.myqcloud.com/picgo/202309240907419.png)
+</div>

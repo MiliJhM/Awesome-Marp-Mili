@@ -8,8 +8,8 @@
 
 
 :root{
-  --font-family-main: 'Latin Modern Math','Adobe Garamond','方正宋刻本秀楷简体','Calibri','楷体','华文中宋','楷体','霞鹜文楷 屏幕阅读版';  
-  --font-family-title: 'Optima LT Medium','Arial','方正苏新诗柳楷简体','黑体'; 
+  --font-family-main: 'Latin Modern Math','Adobe Garamond','方正宋刻本秀楷简体','Calibri','微软雅黑','华文中宋','楷体','霞鹜文楷 屏幕阅读版';  
+  --font-family-title: 'Optima LT Medium','Arial','微软雅黑','黑体'; 
   --font-family-footer: 'Charm','Calibri','叶根友毛笔行书修正版','方正苏新诗柳楷简体','楷体';
   --font-family-code: 'Fira Code','HYMingChanKeBen W','Consolas','霞鹜文楷等宽','华文中宋','宋体';
   --font-size-1: 55px;
@@ -366,7 +366,7 @@ section.cover_b h1 {
   background-color: var(--color-coverbg);
   padding: 30px;
   width: auto;
-  height: 26%;
+  height: 18%;
   top: 15%;
   right: 5%; 
   left: 5%;
@@ -413,6 +413,19 @@ section.cover_b a::after {
   content: "";
 }
 
+section.cover_b header {
+    background-color: transparent;
+    height: 300px;
+    width: 250px;
+    top: 15px;
+    left: 80px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+section.cover_b header>img {
+    filter: brightness(100%);
+}
 
 section.cover_c {
   width: 100%;
@@ -462,6 +475,15 @@ section.cover_c footer {
 }
 
 section.cover_c header {
+  background-color: rgba(255, 255, 255, 0);
+  background-blend-mode: lighten;    
+  height: 100px; 
+  width: 350px;
+  text-align: left;
+  padding: 0 4%;
+}
+
+section.cover_c header> {
   background-color: rgba(255, 255, 255, 0);
   background-blend-mode: lighten;    
   height: 100px; 
@@ -1376,20 +1398,12 @@ section.lastpage div>ul {
   gap: 5em;
   align-content: center;
   list-style: none;
-  
 }
 section.lastpage ul>li>ul>li {
   margin-left: -120px;
 }
 section.lastpage div>ul>li>ul>li {
   list-style: none;
-}
-
-.fa-envelope, .fa-weixin, .fa-phone-volume, .fa-house {
-  border: 2px solid;
-  padding: 10px;
-  border-radius: 50%;
-  font-size: 1.2rem;
 }
 
 section.lastpage a {
